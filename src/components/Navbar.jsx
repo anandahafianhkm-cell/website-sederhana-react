@@ -11,7 +11,7 @@ function Navbar() {
                      <li><a href="#Tutors">Tutors</a></li>
                       <li><a href="#Partners">Partners</a></li>
                        <li><a href="#Contact">Contact</a></li>
-                        <li><a href="">Sign Up</a></li>
+                        <li><a href="#SignUp" className='tbl-biru'>Sign Up</a></li>
                 </ul>
             </div>
         </div>

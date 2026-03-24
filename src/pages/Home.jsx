@@ -12,9 +12,10 @@ function Home() {
         <div className='kolom'>
           <p className='deskripsi'>{homeSection.heading}</p>
         </div>
-
       </section>
     </div>
+
+    <Footer/>
     </>
   )
 }

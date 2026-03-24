@@ -1,10 +1,21 @@
-import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import { homeSection } from '../Data/HomeSection'
 
 function Home() {
   return (
-    <div>
-      Halo
+    <>
+    <Navbar/>
+    <div className='wrapper'>
+      <section id="home">
+        <img src={homeSection.image}/>
+        <div className='kolom'>
+          <p className='deskripsi'>{homeSection.heading}</p>
+        </div>
+
+      </section>
     </div>
+    </>
   )
 }
 

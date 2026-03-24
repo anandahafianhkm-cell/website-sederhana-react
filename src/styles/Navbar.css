@@ -8,7 +8,6 @@
 .logo a {
     font-size: 50px;
     font-weight: 800;
-    
     font-family: courier;
     color: #364f6b;
 }
@@ -49,11 +48,19 @@ nav ul li a:hover {
 }
 
 .tbl-biru {
-    background: #5F9EA0;
+    background: #3f72af;
     padding: 10px 20px;
     border-radius: 20px;
-    transition: 0.3s
+    transition: 0.3s;
+    font-weight: bold;
+    color: #ffffff;
 }
+
+.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 991.98px) {
 
     .wrapper {

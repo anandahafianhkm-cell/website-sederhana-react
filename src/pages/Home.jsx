@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { homeSection } from '../Data/HomeSection'
+import { courseSection } from '../Data/CourseSection'
 import '../styles/Home.css'
 
 function Home() {
@@ -17,6 +18,10 @@ function Home() {
           <button className='button'>{homeSection.linktombol}</button>
         </div>
       </section>
+
+      {/* <section className="course">
+        <img src={courseSection.image}/>
+      </section> */}
     </div>
 
     <Footer/>

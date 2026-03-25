@@ -68,15 +68,43 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         gap: 10px;
+        padding: 0 20px;
     }
+
+    nav {
+        line-height: normal;
+        padding: 15px 0;
+        position: relative;
+    }
+
+    
     .logo a {
         display: block;
         width: 100%;
         text-align: center;
+        font-size: 35px;
     }
 
     nav menu {
         width: 100%;
         margin: 0;
+    }
+
+    nav ul { 
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .tbl-biru {
+        display: inline-block;
+        margin-top: 10px;
+        width: auto;
     }
 }

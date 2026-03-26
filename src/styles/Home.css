@@ -1,3 +1,5 @@
+
+/* Home */
 .home {
     display: flex;
     justify-content: space-between;
@@ -49,6 +51,10 @@
 .kolom .button:hover {
     background: #364f6b;
     transform: translateX(-3px);
+}
+
+.course {
+    width: 100%;
 }
 
 /* Media Qwery */
